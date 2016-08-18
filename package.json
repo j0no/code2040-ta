@@ -4,12 +4,12 @@
   "description": "Tech Assessment for code2040",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "step1": "node step_1/app.js"
   },
-  "author": "",
+  "author": "j0nomar",
   "license": "ISC",
   "dependencies": {
-    "querystring": "^0.2.0",
     "request": "^2.74.0",
     "request-promise": "^4.1.1"
   }

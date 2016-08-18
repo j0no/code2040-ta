@@ -1,9 +1,9 @@
 // Node Module
-const request = require('request-promise');
+const request = require('../node_modules/request-promise');
 
 const dictionary = {
     "github": "https://github.com/jmarcelsw/code2040-ta",
-    "token": "015e760aa9c5abf8a22a817f54ca248e",
+    "token": "token goes here",
 }
 
 const options = {
