@@ -47,7 +47,7 @@ askReq
     .then(response => {
         console.log("datestamp: ", response.datestamp, "interval: ", response.interval);
         const newDatestamp = addInterval(response.datestamp, response.interval);
-        console.log("newDatstmp: ",newDatestamp)
+        console.log("newDatstmp: ", newDatestamp)
         send(newDatestamp);
     })
     .catch(error => {
