@@ -1,6 +1,6 @@
 {
   "name": "code2040-ta",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Tech Assessment for code2040",
   "main": "app.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "j0nomar",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.14.1",
     "request": "^2.74.0",
     "request-promise": "^4.1.1"
   }

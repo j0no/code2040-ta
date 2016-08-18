@@ -2,7 +2,7 @@
 const request = require("../node_modules/request-promise");
 
 const getIndexOfStringInArray = (array, value) => {
-    const index = array.findIndex((element, i, cArray) => {
+    const index = array.findIndex((element, index, cArray) => {
         switch (element) {
             case value:
                 return true;
@@ -20,7 +20,7 @@ const send = (index) => {
         method: "POST",
         uri: "http://challenge.code2040.org/api/haystack/validate",
         body: {
-            "token": "token please",
+            "token": "015e760aa9c5abf8a22a817f54ca248e",
             "needle": index
         },
         json: true
@@ -41,7 +41,7 @@ const aOptions = {
     method: "POST",
     uri: "http://challenge.code2040.org/api/haystack",
     body: {
-        "token": "token please"
+        "token": "015e760aa9c5abf8a22a817f54ca248e"
     },
     json: true
 };

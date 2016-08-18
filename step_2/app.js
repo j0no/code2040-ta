@@ -3,6 +3,7 @@ const request = require("../node_modules/request-promise");
 
 
 const reverse = (word) =>  {
+    // Split string into collection -> reverse with method -> put back together
     const rWord = word.split("").reverse().join("");
     console.log("Reversed Word: ", rWord);
     return rWord;
@@ -13,7 +14,7 @@ const send = (reversedWord) =>  {
         method: "POST",
         uri: "http://challenge.code2040.org/api/reverse/validate",
         body: {
-            "token" : "token goes here",
+            "token" : "015e760aa9c5abf8a22a817f54ca248e",
             "string" : reversedWord
         },
         json: true

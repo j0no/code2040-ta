@@ -3,7 +3,7 @@ const request = require('../node_modules/request-promise');
 
 const dictionary = {
     "github": "https://github.com/jmarcelsw/code2040-ta",
-    "token": "token goes here",
+    "token": "015e760aa9c5abf8a22a817f54ca248e",
 }
 
 const options = {
@@ -15,10 +15,9 @@ const options = {
 
 // Request
 request(options)
-    .then(response = > {
-    console.log(response)
-})
-.
-catch(error = > {
-    console.log(error)
-})
+    .then(response => {
+        console.log(response)
+    })
+    .catch(error = > {
+        console.log(error)
+    })
