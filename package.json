@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "step1": "node step_1/app.js"
+    "step1": "node step_1/app.js",
+    "step2": "node step_2/app.js",
+    "step3": "node step_3/app.js",
+    "step4": "node step_4/app.js",
+    "step5": "node step_5/app.js"
   },
   "author": "j0nomar",
   "license": "ISC",

@@ -1,5 +1,5 @@
 # Step 4: Prefix
-Requirements:
+Criteria:
 
 - Send POST with token
 - return an array containing only the strings that do not start with that prefix

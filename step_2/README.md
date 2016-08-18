@@ -1,5 +1,5 @@
 # Step 2: Reverse a string
-Requirements:
+Criteria:
 
 - Send POST with token
 - Reverse the word given by host
