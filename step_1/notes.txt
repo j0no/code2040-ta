@@ -1,0 +1,5 @@
+/* Requirements:
+challange url - http://challenge.code2040.org/api/register;
+[X] JSON dicionary github account and token
+[X] Send disctionary using POST method
+*/

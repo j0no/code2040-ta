@@ -1,0 +1,16 @@
+{
+  "name": "code2040-ta",
+  "version": "1.0.0",
+  "description": "Tech Assessment for code2040",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  }
+}
