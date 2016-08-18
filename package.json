@@ -1,6 +1,6 @@
 {
   "name": "code2040-ta",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Tech Assessment for code2040",
   "main": "app.js",
   "scripts": {

@@ -11,13 +11,14 @@ const options = {
     uri: 'http://challenge.code2040.org/api/register',
     body: dictionary,
     json: true
-};
+}
 
 // Request
 request(options)
-    .then(response => {
-      console.log(response)
-    })
-    .catch(error => {
-      console.log(error)
-    })
+    .then(response = > {
+    console.log(response)
+})
+.
+catch(error = > {
+    console.log(error)
+})
