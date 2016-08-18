@@ -13,7 +13,7 @@ const send = (reversedWord) =>  {
         method: "POST",
         uri: "http://challenge.code2040.org/api/reverse/validate",
         body: {
-            "token" : "015e760aa9c5abf8a22a817f54ca248e",
+            "token" : "token goes here",
             "string" : reversedWord
         },
         json: true
